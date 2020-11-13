@@ -133,32 +133,7 @@ export default function CheckoutForm({pr}) {
 
         }
       }
-
-        const iframeStyles = {
-    base: {
-      color: "#5496d4;",
-      fontSize: "16px",
-      iconColor: "#fff",
-      "::placeholder": {
-        color: "#87bbfd"
-      }
-    },
-    invalid: {
-      iconColor: "#FFC7EE",
-      color: "#FFC7EE"
-    },
-    complete: {
-      iconColor: "#cbf4c9"
-    }
-  };
-
-  const cardElementOpts = {
-    iconStyle: "solid",
-    style: iframeStyles,
-    hidePostalCode: true
-  };
- 
- 
+  
   return (
     <form id="payment-form" onSubmit={handleSubmit}>
       <center><Row>

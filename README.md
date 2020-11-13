@@ -3,6 +3,7 @@
 - From a terminal, navigate into the project folder `cd StripeProject-main`
 - Install the dependencies by running `npm install`
 - Run the app by running `npm start` !
-
-If it doesn't happen automagically, open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- We don't need to manually run a server because this implementation uses Firebase Cloud Functions to host its server code! It's always on!
+ 
+If it doesn't happen automagically, open [http://localhost:3000](http://localhost:3000) to view the client in the browser.
 
